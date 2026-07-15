@@ -1,1 +1,10 @@
-
+streamlit
+deep-translator
+textblob
+Pillow
+pytesseract
+numpy
+SpeechRecognition
+streamlit-webrtc
+av
+opencv-python-headless
