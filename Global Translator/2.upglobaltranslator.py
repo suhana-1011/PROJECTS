@@ -24,8 +24,8 @@ RTC_CONFIGURATION = RTCConfiguration({
 
 # ── Page Config ──
 st.set_page_config(
-    page_title="🌍 Global Translator Pro",
-    page_icon="🌍",
+    page_title="🗣️ Smart Language Translator",
+    page_icon="🗣️",
     layout="wide"
 )
 
@@ -40,8 +40,8 @@ for key in ["input_text", "translated_text", "chat_history", "voice_queue"]:
             st.session_state[key] = ""
 
 # ── Title ──
-st.title("🌍 Global Translator Pro")
-st.caption("Translate text, voice, images into any language — works on phone anywhere!")
+st.title("🗣️ Smart Language Translator")
+st.caption("Translate text, voice, images, and conversations into any language with AI.")
 st.divider()
 
 # ── TABS ──
@@ -358,7 +358,7 @@ with tab5:
 # ── Footer ──
 st.divider()
 st.markdown(
-    "<center>🌍 Global Translator Pro — Made with ❤️ using Python & Streamlit</center>",
+    "<center>🗣️ Smart Language Translator — Made with ❤️ using Python & Streamlit</center>",
     unsafe_allow_html=True
 )
 
